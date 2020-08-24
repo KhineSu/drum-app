@@ -118,7 +118,6 @@ class App extends React.Component {
             <audio
               src={drum.src}
               id={drum.padId}
-              controls
               className="clip"
               type="audio/mp3"
             ></audio>
